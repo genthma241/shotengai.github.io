@@ -1,19 +1,14 @@
 @charset "UTF-8";
 
 /*マップ内*/
-.mapabso ul.mapimage {
+.mapimage {
 	position: relative;
  	}
  	
-	
-	
 /*マップサイズ*/
 .mapimage {
+	margin: 0 auto;
 	display: block;
-	max-width: 80%;
-	height: auto;
-	margin: auto;
-	text-align: center;
 	}	
 	
 .box1 li
@@ -21,7 +16,7 @@
 	}	
 	
 /*それぞれの文字の場所*/
-.box1-1 {
+.box1 li:nth-child(1) {
 	margin: 0;
 	position: absolute;
 	top: 8%;
@@ -133,3 +128,33 @@
 	color: red;
 	}	
 		
+/************** 768px以上******/		
+@media(min-width: 768px){
+
+/*全体の横幅を固定*/
+.mapimage {
+	width: 750px;
+	height: auto;
+	}
+	
+}
+
+/**************767px以下******/
+@media(max-width: 767px){
+
+/*全体の横幅を指定*/
+.mapimage {
+	width: 580px;
+	}
+	
+}
+
+/********スマホ仕様*********/	
+@media(max-width: 599px){
+
+.mapimage {
+	height: 300px;
+	width: auto;
+	}
+	
+}			
