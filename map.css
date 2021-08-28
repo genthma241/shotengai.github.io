@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+/*マップ内*/
+.mapabso ul.mapimage {
+	position: relative;
+ 	}
+ 	
+	
+	
+/*マップサイズ*/
+.mapimage {
+	display: block;
+	max-width: 80%;
+	height: auto;
+	margin: auto;
+	text-align: center;
+	}	
+	
+.box1 li
+	{list-style: none;
+	}	
+	
+/*それぞれの文字の場所*/
+.box1-1 {
+	margin: 0;
+	position: absolute;
+	top: 8%;
+	left: 41%;
+	} 	
+	
+	
+.box1-2 {
+	margin: 0;
+	position: absolute;
+	top: 11%;
+	left: 41%;
+	} 		
+	
+.box1-3 {
+	margin: 0;
+	position: absolute;
+	top: 10%;
+	left: 67%;
+	} 	
+
+.box1-4 {
+	margin: 0;
+	position: absolute;
+	top: 40%;
+	left: 34%;
+	} 	
+.box1-5 {
+	margin: 0;
+	position: absolute;
+	top: 18%;
+	left: 38%;
+	} 	
+.box1-6 {
+	margin: 0;
+	position: absolute;
+	top: 17%;
+	left: 74%;
+	} 	
+.box1-7 {
+	margin: 0;
+	position: absolute;
+	top: 30%;
+	left: 43%;
+	} 	
+.box1-8 {
+	margin: 0;
+	position: absolute;
+	top: 4%;
+	left: 80%;
+	} 	
+.box1-9 {
+	margin: 0;
+	position: absolute;
+	top: 33%;
+	left: 39.5%;
+	} 	
+.box1-10 {
+	margin: 0;
+	position: absolute;
+	top: 37%;
+	left: 40%;
+	} 	
+.box1-11 {
+	margin: 0;
+	position: absolute;
+	top: 6%;
+	left: 45%;
+	} 	
+.box1-12 {
+	margin: 0;
+	position: absolute;
+	top: 21.5%;
+	left: 70.5%;
+	} 	
+.box1-13 {
+	margin: 0;
+	position: absolute;
+	top: 23%;
+	left: 73%;
+	} 	
+.box1-14 {
+	margin: 0;
+	position: absolute;
+	top: 6%;
+	left: 74%;
+	} 	
+.box1-15 {
+	margin: 0;
+	position: absolute;
+	top: 9%;
+	left: 73%;
+	} 	
+.box1-16 {
+	margin: 0;
+	position: absolute;
+	top: 18.5%;
+	left: 71.5%;
+	} 	
+.box1-17 {
+	margin: 0;
+	position: absolute;
+	top: 14.5%;
+	left: 74.5%;
+	} 
+	
+.box1 ul li{
+	font-size: 20px;
+	color: red;
+	}	
+		
