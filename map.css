@@ -1,12 +1,5 @@
 @charset "UTF-8";
 
-body{
-	height: 100%;
-	}
-	
-html{
-	height: 100%;
-	}	
 
 
 /*マップ内*/
@@ -36,11 +29,11 @@ html{
 	}	
 	
 /*それぞれの文字の場所*/
-.box1 li:nth-child(1) {
+.box1-1 {
 	margin: 0;
 	position: absolute;
-	top: 8%;
-	left: 17%;
+	top: 1.5%;
+	left: 35%;
 	} 	
 	
 	
@@ -144,7 +137,7 @@ html{
 	} 
 	
 .box1 ul li a{
-	font-size: 20px;
+	font-size: 8px;
 	color: red;
 	text-decoration: none;
 	}	
@@ -171,12 +164,275 @@ html{
 
 	}	
 
-/*********PC仕様*******/
-@media(min-width: 1000px){
+/*********小サイズ仕様**************/		
+@media(max-width:300px){
+		
 .area1 {
-	height: 40vw;
+	width: 180px;
+	margin: 0 auto;
 	}
 }
+@media(min-width: 300px){
+.box1-1{
+	top: 2%;
+	left: 35%;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+
+	
+}		
+
+@media(min-width: 400px){
+.box1-1{
+	top: 4%;
+	left: 34%;
+	}
+}
+@media(min-width: 500px){
+.box1-1{
+	top: 5%;
+	left: 34%;
+	}
+}
+
+
+
+
+
+
+/********スマホ仕様*********/	
+@media(max-width: 599px){	
+.box1 li a{
+	font-size: 8px;
+	}
+
+}
+@media(min-width: 599px){
+.box1 ul li a{
+	font-size: 12px;}	
+
+.box1-1{
+	top: 6%;
+	left: 35%;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+	
+}	
+
+@media(min-width: 690px){
+.box1-1{
+	top: 6%;
+	left: 37%;
+	}
+}
+
+
+/**************767px以下******/
+@media(max-width: 782px){
+
+/*全体の横幅を指定*/
+.area1 {
+	width: 580px;
+	}
+}
+@media(min-width: 782px){	
+	
+.box1 ul li a{
+	font-size: 20px;}	
+	
+.box1-1{
+	top: 8%;
+	left: 34%;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+
+}
+
 
 /************** 768px以上******/		
 @media(min-width: 783px){
@@ -185,34 +441,188 @@ html{
 .area1 {
 	width: 750px;
 	}
-	
+
+.box1-1{
+	left: 35%;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
 }
 
-/**************767px以下******/
-@media(max-width: 767px){
 
-/*全体の横幅を指定*/
+/*********PC仕様*******/
+@media(min-width: 1000px){
 .area1 {
-	width: 580px;
+	height: 40vw;
 	}
-	
+
+
+.box1-1{
+	left: 39%;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
+.box1-{
+	top: %;
+	left: %;
+	}
 }
 
-/********スマホ仕様*********/	
-@media(max-width: 599px){
 
-.area1 {
-	width: 300px;
-	}
-}	
 
-/*********小サイズ仕様**************/		
-@media(max-width:300px){
-		
+
+
+
+
+
+
+
+
+
+
+/*********でかPC仕様**********/]
+@media(min-width: 1200px){
 .area1 {
-	width: 180px;
-	margin: 0 auto;
+	height: 35vw;
 	}
-}			
+	
+.box1-1{
+	left: 40.5%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+	
 		
 		
