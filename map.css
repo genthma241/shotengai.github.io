@@ -171,4 +171,48 @@ html{
 
 	}	
 
+/*********PC仕様*******/
+@media(min-width: 1000px){
+.area1 {
+	height: 40vw;
+	}
+}
+
+/************** 768px以上******/		
+@media(min-width: 783px){
+
+/*全体の横幅を固定*/
+.area1 {
+	width: 750px;
+	}
+	
+}
+
+/**************767px以下******/
+@media(max-width: 767px){
+
+/*全体の横幅を指定*/
+.area1 {
+	width: 580px;
+	}
+	
+}
+
+/********スマホ仕様*********/	
+@media(max-width: 599px){
+
+.area1 {
+	width: 300px;
+	}
+}	
+
+/*********小サイズ仕様**************/		
+@media(max-width:300px){
+		
+.area1 {
+	width: 180px;
+	margin: 0 auto;
+	}
+}			
+		
 		
