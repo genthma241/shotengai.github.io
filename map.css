@@ -1,14 +1,34 @@
 @charset "UTF-8";
 
+body{
+	height: 100%;
+	}
+	
+html{
+	height: 100%;
+	}	
+
+
 /*マップ内*/
-.mapimage {
+.area1 {
+	background-image: url(shotengaimap.png);
+	background-repeat: no-repeat;
+	background-size: contain;
 	position: relative;
+	margin: 0 auto;
  	}
  	
+.mapabso {
+	width: 100%;
+	height: auto;
+	} 	
+ 	
+ 	
 /*マップサイズ*/
-.mapimage {
-	margin: 0 auto;
+.area1 {
 	display: block;
+	width: 80%;
+	height: 50vw;
 	}	
 	
 .box1 li
@@ -20,7 +40,7 @@
 	margin: 0;
 	position: absolute;
 	top: 8%;
-	left: 41%;
+	left: 17%;
 	} 	
 	
 	
@@ -123,38 +143,32 @@
 	left: 74.5%;
 	} 
 	
-.box1 ul li{
+.box1 ul li a{
 	font-size: 20px;
 	color: red;
+	text-decoration: none;
 	}	
 		
-/************** 768px以上******/		
-@media(min-width: 768px){
-
-/*全体の横幅を固定*/
-.mapimage {
-	width: 750px;
-	height: auto;
+/********左右に配置するbox*****/	
+.boxA:after{
+	content: "";
+	display: block;
+	clear: both;
 	}
 	
-}
+.boxleft {
+	float: left;
+	width: 10%;
+	height: 30px;
 
-/**************767px以下******/
-@media(max-width: 767px){
-
-/*全体の横幅を指定*/
-.mapimage {
-	width: 580px;
 	}
-	
-}
 
-/********スマホ仕様*********/	
-@media(max-width: 599px){
 
-.mapimage {
-	height: 300px;
-	width: auto;
-	}
-	
-}			
+.boxright {
+	float: right;
+	width: 10%;
+	height: 30px;
+
+	}	
+
+		
