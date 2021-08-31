@@ -232,9 +232,9 @@
 	
 	left: 29vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-10{
+	top: 37vw;
+	left: 32vw;
 	}
 .box1-{
 	top: %;
@@ -316,7 +316,33 @@
 	top: 28vw;
 	left: 39vw;
 	}	
-	
+.box1-9{
+	top: 31vw;
+	left: 35vw;
+	}	
+.box1-10{
+	top: 35vw;
+	left: 35vw;
+	}	
+.box1-11{
+	left: 40vw;
+	}	
+.box1-12{
+	top: 19vw;
+	left: 70vw;
+	}	
+.box1-13{
+	top: 21vw;
+	left: 73.5vw;
+	}	
+.box1-16{
+	top: 16vw;
+	left: 72vw;
+	}	
+.box1-17{
+	top: 13vw;
+	left: 76vw;
+	}	
 }
 
 
@@ -355,25 +381,25 @@
 	top: 31vw;
 	left: 35vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-9{
+	top: 35vw;
+	left: 33vw;;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-10{
+	top: 38vw;
+	left: 32vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-12{
+	top: 21vw;
+	left: 71vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-13{
+	top: 24vw;;
+	left: 75vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-16{
+	top: 18vw;
+	left: 72vw;;
 	}
 .box1-{
 	top: %;
@@ -415,21 +441,6 @@
 	left: 32vw;
 	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 @media(min-width: 890px){
@@ -452,7 +463,21 @@
 	top: 28vw;
 	left: 39vw;
 	}	
-	
+.box1-9{
+	top: 31vw;
+	}	
+.box1-10{
+	top: 35vw;
+	left: 35vw;
+	}	
+.box1-12{
+	top: 20vw;
+	left: 72vw;
+	}	
+.box1-13{
+	top: 21vw;
+	left: 74vw;
+	}	
 	}
 
 
@@ -496,55 +521,43 @@
 	top: 2vw;
 	left: 77vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-9{
+	top: 26vw;
+	left: 36vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-10{
+	top: 29.3vw;
+	left: 36.5vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-11
+	top: 4vw;
+	left: 41vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-12{
+	top: 17vw;
+	left: 68vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-13{
+	top: 18vw;
+	left: 71vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-14{
+	top: 4vw;
+	left: 70vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-15{
+	top: 6vw;
+	left: 70vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-16{
+	top: 14vw;
+	left: 68vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-17{
+	top: 11vw;
+	left: 71vw;
+	
 	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*********でかPC仕様**********/
 @media(min-width: 1200px){
@@ -583,7 +596,107 @@
 .box1-8{
 	left: 74vw;
 	}
+.box1-9{
+	top: 22vw;
+	left: 39vw;
+	}	
+.box1-10{
+	top: 25vw;
+	left: 39vw;
+	}	
+.box1-11{
+	left: 43vw;
+	}	
+.box1-12{
+	top: 14vw;
+	left: 64vw;
+	}	
+.box1-13{
+	top: 14vw;
+	left: 66vw;
+	}	
+.box1-14{
+	top: 3vw;
+	left: 68vw;
+	}	
+.box1-15{
+	top: 5vw;
+	left: 68vw;
+	}	
+.box1-16{
+	top: 12vw;
+	left: 66vw;
+	}	
+.box1-17{
+	top: 9vw;
+	left: 69vw;
+	}	
 }
+
+@media(min-width: 1250px){
+.box1-1{
+	top:  4vw;
+	left: 41vw;
+	}
+.box1-2{
+	top: 6vw;
+	left: 41vw;
+	}
+.box1-3{
+	top: 5vw;
+	left: 61vw;
+	}
+.box1-4{
+	top: 22vw;
+	left: 36vw;
+	}	
+.box1-5{
+	top: 10vw;
+	left: 39vw;
+	}
+.box1-6{
+	top: 9vw;
+	left: 66vw;
+	}
+.box1-7{
+	top: 18vw;
+	}
+.box1-8{
+	left: 70vw;
+	}
+.box1-9{
+	top: 19vw;
+	left: 40vw;
+	}
+.box1-10{
+	top: 22vw;
+	left: 41vw;
+	}
+.box1-11{
+	top: 4vw;
+	}	
+.box1-12{
+	top: 12vw;
+	left: 62vw;
+	}
+.box1-13{
+	top: 13vw;
+	left: 64vw;
+	}
+.box1-14{
+	left: 64vw;
+	}
+.box1-15{
+	left: 64vw;
+	} 					 					
+.box1-16{
+	top: 10vw;
+	left: 63vw;
+	}
+.box1-17{
+	top: 8vw;
+	left: 66vw;
+	}	
 
 
 
