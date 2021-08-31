@@ -32,30 +32,30 @@
 .box1-1 {
 	margin: 0;
 	position: absolute;
-	top: 1.5%;
-	left: 35%;
+	top: 6vw;
+	left: 32vw;
 	} 	
 	
 	
 .box1-2 {
 	margin: 0;
 	position: absolute;
-	top: 3%;
-	left: 37%;
+	top: 10vw;
+	left: 32vw;
 	} 		
 	
 .box1-3 {
 	margin: 0;
 	position: absolute;
-	top: 2%;
-	left: 71%;
+	top: 8vw;
+	left: 67vw;
 	} 	
 
 .box1-4 {
 	margin: 0;
 	position: absolute;
-	top: 100px;
-	left: 26%;
+	top: 40vw;
+	left: 24vw;
 	} 	
 .box1-5 {
 	margin: 0;
@@ -153,9 +153,7 @@
 	float: left;
 	width: 10%;
 	height: 30px;
-
 	}
-
 
 .boxright {
 	float: right;
@@ -173,15 +171,7 @@
 	top: 16vw;
 	left: 76vw;
 	}	
-	
-	
-
-	
-		
-	
-	}
-
-
+}
 
 /*********小サイズ仕様**************/		
 @media(max-width:300px){
@@ -192,22 +182,7 @@
 	}
 }
 @media(min-width: 300px){
-.box1-1{
-	top: 2%;
-	left: 35%;
-	}
-.box1-2{
-	top: 4%;
-	left: 35%;
-	}
-.box1-3{
-	top: 3%;
-	
-	}
-.box1-4{
 
-	left: 25%;
-	}
 .box1-5{
 	left: 29%;
 	}
@@ -219,18 +194,8 @@
 }		
 
 @media(min-width: 400px){
-.box1-1{
-	top: 4%;
-	left: 34%;
-	}
+
 	
-.box1-2{
-	top: 6%;
-	}	
-.box1-3{
-	top: 4.5%;
-	left: 70%;
-	}	
 .box1-4{
 	top: 41vw;
 	}
@@ -241,10 +206,7 @@
 	
 }
 @media(min-width: 500px){
-.box1-1{
-	top: 5%;
-	left: 34%;
-	}
+
 }
 
 
@@ -264,12 +226,12 @@
 	font-size: 12px;}	
 
 .box1-1{
-	top: 6%;
-	left: 35%;
+	top: 7vw;
+	left: 34vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-2{
+	top: 10vw;
+	left: 34vw;
 	}
 .box1-{
 	top: %;
@@ -336,9 +298,18 @@
 
 @media(min-width: 690px){
 .box1-1{
-	top: 6%;
-	left: 37%;
+	top: 6vw;
+	left: 37vw;
 	}
+.box1-2{
+	top: 9vw;
+	left: 36vw;
+	}	
+.box1-4{
+	top: 37.5vw;
+	left: 28vw;
+	}	
+	
 }
 
 
@@ -356,16 +327,15 @@
 	font-size: 20px;}	
 	
 .box1-1{
-	top: 8%;
-	left: 34%;
+	left: 37vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-2{
+	top: 10vw;
+	left: 32vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-4{
+	top: 41vw;
+	left: 23vw;
 	}
 .box1-{
 	top: %;
@@ -434,8 +404,44 @@
 .area1 {
 	width: 750px;
 	}
+.box1-1{
+	top: 7vw;
+	left: 32vw;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
+
+@media(min-width: 890px){
+.box1-1{
+	left: 37vw;
+	}
+.box1-2{
+	top: 9.5vw;
+	left: 36vw;
+	}	
+.box1-4{
+	top: 38vw;
+	left: 27vw;
+	}	
+	}
+
+
+
 
 /*********PC仕様*******/
 @media(min-width: 1000px){
@@ -445,19 +451,19 @@
 
 
 .box1-1{
-	left: 39%;
+	top: 6vw;;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-2{
+	top: 8vw;
+	left:38vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-3{
+	top: 7vw;
+	left: 64vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-4{
+	top: 31.5vw;
+	left: 31vw;
 	}
 .box1-{
 	top: %;
@@ -525,15 +531,28 @@
 
 
 
-/*********でかPC仕様**********/]
+/*********でかPC仕様**********/
 @media(min-width: 1200px){
 .area1 {
 	height: 35vw;
 	}
 	
 .box1-1{
-	left: 40.5%;
+	top: 5vw;
+	left: 40vw;
 	}
+.box1-2{
+	top: 7vw;
+	left: 39vw;
+	}	
+.box1-3{
+	top: 6vw;
+	left: 63vw;
+	}	
+.box1-4{
+	top: 28vw;
+	left: 33vw;
+	}	
 
 }
 
