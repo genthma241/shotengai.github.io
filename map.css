@@ -61,7 +61,7 @@
 	margin: 0;
 	position: absolute;
 	top: 18vw;
-	left: 30%;
+	left: 28vw;
 	} 	
 .box1-6 {
 	margin: 0;
@@ -182,11 +182,6 @@
 	}
 }
 @media(min-width: 300px){
-
-.box1-5{
-	left: 29%;
-	}
-
 .box1-12{
 	top: 21vw;
 	}
@@ -233,9 +228,9 @@
 	top: 10vw;
 	left: 34vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-5{
+	
+	left: 29vw;
 	}
 .box1-{
 	top: %;
@@ -309,6 +304,18 @@
 	top: 37.5vw;
 	left: 28vw;
 	}	
+.box1-5{
+	top: 16vw;
+	left: 32vw;
+	}	
+.box1-6{
+	top: 15vw;
+	left: 75vw;
+	}	
+.box1-7{
+	top: 28vw;
+	left: 39vw;
+	}	
 	
 }
 
@@ -337,17 +344,16 @@
 	top: 41vw;
 	left: 23vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-5{
+	top: 18vw;
+	left: 29vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-6{
+	top: 16vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-7{
+	top: 31vw;
+	left: 35vw;
 	}
 .box1-{
 	top: %;
@@ -438,6 +444,15 @@
 	top: 38vw;
 	left: 27vw;
 	}	
+.box1-5{
+	top: 16.5vw;
+	left: 32vw;
+	}	
+.box1-7{
+	top: 28vw;
+	left: 39vw;
+	}	
+	
 	}
 
 
@@ -465,21 +480,21 @@
 	top: 31.5vw;
 	left: 31vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-5{
+	top: 14vw;
+	left: 34vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-6{
+	top: 13vw;
+	left: 71vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-7{
+	top: 24vw;
+	left: 39.5vw;
 	}
-.box1-{
-	top: %;
-	left: %;
+.box1-8{
+	top: 2vw;
+	left: 77vw;
 	}
 .box1-{
 	top: %;
@@ -553,7 +568,21 @@
 	top: 28vw;
 	left: 33vw;
 	}	
-
+.box1-5{
+	top: 12vw;
+	left: 37vw;
+	}	
+.box1-6{
+	top: 11vw;
+	left: 69vw;
+	}	
+.box1-7{
+	top: 21vw;
+	left: 42vw;
+	}	
+.box1-8{
+	left: 74vw;
+	}
 }
 
 
